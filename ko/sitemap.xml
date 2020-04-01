@@ -3,27 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://dangthanhhung.github.io/ko/archive/</loc>
+    <loc>http://dangthanhhung.github.io/ko/ko/</loc>
     <lastmod>2019-10-19T11:44:14+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://dangthanhhung.github.io/en/archive/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="http://dangthanhhung.github.io/ko/archive/"
-                />
+  </url>
+  
+  <url>
+    <loc>http://dangthanhhung.github.io/ko/ko/archive/</loc>
+    <lastmod>2019-10-19T11:44:14+09:00</lastmod>
   </url>
   
   <url>
     <loc>http://dangthanhhung.github.io/ko/</loc>
-    <lastmod>2019-10-09T11:44:14+09:00</lastmod>
+    <lastmod>2019-10-19T11:44:14+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
                 href="http://dangthanhhung.github.io/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://dangthanhhung.github.io/vi/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -33,62 +33,35 @@
   </url>
   
   <url>
-    <loc>http://dangthanhhung.github.io/ko/about/</loc>
+    <loc>http://dangthanhhung.github.io/ko/ko/about/</loc>
     <lastmod>2019-10-09T11:44:14+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://dangthanhhung.github.io/en/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="http://dangthanhhung.github.io/ko/about/"
-                />
   </url>
   
   <url>
-    <loc>http://dangthanhhung.github.io/ko/gallery/</loc>
+    <loc>http://dangthanhhung.github.io/ko/ko/gallery/photo/</loc>
     <lastmod>2018-10-12T10:20:16+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://dangthanhhung.github.io/en/gallery/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="http://dangthanhhung.github.io/ko/gallery/"
-                />
   </url>
   
   <url>
-    <loc>http://dangthanhhung.github.io/ko/gallery/photo/</loc>
-    <lastmod>2018-10-12T10:20:16+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://dangthanhhung.github.io/en/gallery/photo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="http://dangthanhhung.github.io/ko/gallery/photo/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://dangthanhhung.github.io/ko/gallery/cartoon/</loc>
+    <loc>http://dangthanhhung.github.io/ko/ko/gallery/cartoon/</loc>
     <lastmod>2018-10-11T10:20:16+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dangthanhhung.github.io/ko/en/</loc>
+  </url>
+  
+  <url>
+    <loc>http://dangthanhhung.github.io/ko/vi/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="http://dangthanhhung.github.io/en/gallery/cartoon/"
+                hreflang="vi"
+                href="http://dangthanhhung.github.io/vi/vi/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://dangthanhhung.github.io/ko/gallery/cartoon/"
+                href="http://dangthanhhung.github.io/ko/vi/"
                 />
   </url>
   
@@ -98,6 +71,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://dangthanhhung.github.io/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://dangthanhhung.github.io/vi/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -115,23 +93,18 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="vi"
+                href="http://dangthanhhung.github.io/vi/tags/index/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="ko"
                 href="http://dangthanhhung.github.io/ko/tags/index/"
                 />
   </url>
   
   <url>
-    <loc>http://dangthanhhung.github.io/ko/posts/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://dangthanhhung.github.io/en/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="http://dangthanhhung.github.io/ko/posts/"
-                />
+    <loc>http://dangthanhhung.github.io/ko/ko/posts/</loc>
   </url>
   
   <url>
@@ -140,6 +113,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://dangthanhhung.github.io/en/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://dangthanhhung.github.io/vi/series/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -154,6 +132,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://dangthanhhung.github.io/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://dangthanhhung.github.io/vi/tags/"
                 />
     <xhtml:link
                 rel="alternate"
