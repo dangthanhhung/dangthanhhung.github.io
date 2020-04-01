@@ -1,0 +1,6 @@
+content_font = "\"OpenSans\", sans-serif" 
+#content_font = "\"Muli\", sans-serif"
+title_font = "\"NotoSerif\", serif" 
+# content_font = "\"Source Sans Pro\", sans-serif"
+# content_font = "\"League Gothic\", sans-serif"
+cursive_font = "\"Courgette\", cursive"
