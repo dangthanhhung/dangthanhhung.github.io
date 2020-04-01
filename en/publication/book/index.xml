@@ -6,13 +6,13 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>book on Hugo Zzo Theme</title>
+    <title>book on Dang T. Hung&#39;s webpage</title>
     <link>http://dangthanhhung.github.io/en/publication/book/</link>
-    <description>Recent content in book on Hugo Zzo Theme</description>
+    <description>Recent content in book on Dang T. Hung&#39;s webpage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>zzossig@gmail.com (zzossig)</managingEditor>
-    <webMaster>zzossig@gmail.com (zzossig)</webMaster>
+    <managingEditor>dthungvna@gmail.com (Hung T. Dang)</managingEditor>
+    <webMaster>dthungvna@gmail.com (Hung T. Dang)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Thu, 05 Mar 2020 14:08:48 +0000</lastBuildDate>
     
@@ -26,12 +26,12 @@
         <title>Donec vel ipsum vulputate, dapibus magna quis</title>
         <link>http://dangthanhhung.github.io/en/publication/book/book_any_folder_name_1/</link>
         <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
-        <author>zzossig@gmail.com (zzossig)</author>
+        <author>dthungvna@gmail.com (Hung T. Dang)</author>
         <atom:modified>Thu, 01 Jun 2017 00:00:00 +0000</atom:modified>
         <guid>http://dangthanhhung.github.io/en/publication/book/book_any_folder_name_1/</guid>
         <description></description>
         
-        <dc:creator>zzossig</dc:creator>
+        <dc:creator>Hung T. Dang</dc:creator>
         
         
         
