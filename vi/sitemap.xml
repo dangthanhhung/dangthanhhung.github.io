@@ -12,11 +12,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ko"
-                href="http://dangthanhhung.github.io/ko/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="vi"
                 href="http://dangthanhhung.github.io/vi/"
                 />
@@ -38,36 +33,11 @@
   </url>
   
   <url>
-    <loc>http://dangthanhhung.github.io/vi/vi/about/</loc>
-    <lastmod>2019-10-09T11:44:14+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dangthanhhung.github.io/vi/vi/</loc>
-    <lastmod>2019-10-09T11:44:14+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="http://dangthanhhung.github.io/ko/vi/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="http://dangthanhhung.github.io/vi/vi/"
-                />
-  </url>
-  
-  <url>
     <loc>http://dangthanhhung.github.io/vi/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
                 href="http://dangthanhhung.github.io/en/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="http://dangthanhhung.github.io/ko/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -82,11 +52,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://dangthanhhung.github.io/en/tags/index/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="http://dangthanhhung.github.io/ko/tags/index/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -110,20 +75,11 @@
   </url>
   
   <url>
-    <loc>http://dangthanhhung.github.io/vi/vi/posts/</loc>
-  </url>
-  
-  <url>
     <loc>http://dangthanhhung.github.io/vi/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
                 href="http://dangthanhhung.github.io/en/series/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="http://dangthanhhung.github.io/ko/series/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -138,11 +94,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://dangthanhhung.github.io/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="http://dangthanhhung.github.io/ko/tags/"
                 />
     <xhtml:link
                 rel="alternate"

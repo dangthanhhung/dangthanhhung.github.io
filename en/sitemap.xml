@@ -97,11 +97,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ko"
-                href="http://dangthanhhung.github.io/ko/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en"
                 href="http://dangthanhhung.github.io/en/"
                 />
@@ -146,11 +141,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ko"
-                href="http://dangthanhhung.github.io/ko/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en"
                 href="http://dangthanhhung.github.io/en/categories/"
                 />
@@ -162,11 +152,6 @@
                 rel="alternate"
                 hreflang="vi"
                 href="http://dangthanhhung.github.io/vi/tags/index/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="http://dangthanhhung.github.io/ko/tags/index/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -198,11 +183,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ko"
-                href="http://dangthanhhung.github.io/ko/series/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en"
                 href="http://dangthanhhung.github.io/en/series/"
                 />
@@ -214,11 +194,6 @@
                 rel="alternate"
                 hreflang="vi"
                 href="http://dangthanhhung.github.io/vi/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="http://dangthanhhung.github.io/ko/tags/"
                 />
     <xhtml:link
                 rel="alternate"
