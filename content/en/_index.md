@@ -1,14 +1,14 @@
 ---
 header:
   - type: text
-    height: 200
+    height: 120
     paddingX: 50
     paddingY: 0
     align: center
     title:
-      - HUGO
+      - 
     subtitle:
-      - The world’s fastest framework for building websites
+      - 
     titleColor: 
     titleShadow: false
     titleFontSize: 44

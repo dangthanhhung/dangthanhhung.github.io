@@ -1,4 +1,4 @@
-logoText = "Hung"
+logoText = "Hưng"
 logoType = "short" # long, short
 description = "The Zzo theme for Hugo example site."
 custom_css = []
@@ -46,8 +46,8 @@ whoami = "PhD student"
 bioImageUrl = ""
 useGravatar = false
 location = "Marseille, France"
-organization = "Hugo"
-link = "https://zzossig.io/ko"
+organization = "Institute of Mathematics of Marseille"
+link = ""
 
 # sidebar
 enableBio = true
@@ -141,7 +141,7 @@ commento = false
   dataAttrs = "" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
 
 [socialOptions]
-  email = "mailto:your@email.com"
+  email = "mailto:dthungvna@gmail.com"
   phone = ""
   facebook = "http://facebook.com/dangthanhhung"
   twitter = "http://example.org/"
@@ -152,7 +152,7 @@ commento = false
   youtube = ""
   medium = ""
   tumblr = ""
-  linkedin = ""
+  linkedin = "https://www.linkedin.com/in/thanh-hung-dang-545251153/"
   pinterest = ""
   stack-exchange = ""
   telegram = ""

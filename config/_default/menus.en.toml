@@ -24,8 +24,8 @@
     
 [[main]]
   parent = "gallery"
-  name = "Cartoon"
-  url = "gallery/cartoon"
+  name = "Video"
+  url = "gallery/video"
 
 [[main]]
   parent = "gallery"
