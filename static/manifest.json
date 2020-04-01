@@ -8,12 +8,19 @@
   "start_url": "https://themes.gohugo.io/theme/hugo-theme-zzo/",
   "icons": [
     {
-      "src": "favicon/android-icon-36x36.png",
+      "src": "favicon.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    }, {
+      "src": "logo.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },{
+      "src": "",
       "sizes": "36x36",
       "type": "image/png",
       "density": "0.75"
-    },
-    {
+    }, {
       "src": "favicon/android-icon-48x48.png",
       "sizes": "48x48",
       "type": "image/png",
@@ -43,12 +50,7 @@
       "type": "image/png",
       "density": "4.0"
     },
-    {
-      "src": "favicon/android-icon-512x512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "density": "4.0"
-    }
+    
   ],
   "theme_color": "#FF6188",
   "background_color": "#2D2A2E",

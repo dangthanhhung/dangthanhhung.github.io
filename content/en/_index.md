@@ -10,7 +10,7 @@ header:
     subtitle:
       - The world’s fastest framework for building websites
     titleColor: 
-    titleShadow: true
+    titleShadow: false
     titleFontSize: 44
     subtitleColor: 
     subtitleCursive: true

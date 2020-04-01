@@ -8,19 +8,19 @@
   identifier = "archive"
   name = "Archive"
   url = "archive"
-  weight = 2
+  weight = 6
 
-[[main]]
-  identifier = "presentation"
-  name = "Pt"
-  url = "presentation"
-  weight = 3
+#[[main]]
+#  identifier = "presentation"
+#  name = "Pt"
+#  url = "presentation"
+#  weight = 3
 
 [[main]]
   identifier = "gallery"
   name = "Gallery"
   url = "gallery"
-  weight = 4
+  weight = 5
     
 [[main]]
   parent = "gallery"
@@ -36,16 +36,22 @@
   identifier = "posts"
   name = "Posts"
   url = "posts"
-  weight = 5
+  weight = 4
 
 [[main]]
-  identifier = "showcase"
-  name = "Showcase"
-  url = "showcase"
-  weight = 6
+  identifier = "activities"
+  name = "Activities"
+  url = "activity"
+  weight = 2
 
 [[main]]
   identifier = "publication"
-  name = "Pub"
+  name = "Publication"
   url = "publication"
+  weight = 3
+
+[[main]]
+  identifier = "contact"
+  name = "Contact"
+  url = "contact"
   weight = 7
