@@ -22,16 +22,16 @@
 
       
       <item>
-        <title>Photo</title>
-        <link>http://dangthanhhung.github.io/en/gallery/photo/</link>
+        <title>Cartoon</title>
+        <link>http://dangthanhhung.github.io/en/gallery/cartoon/</link>
         <pubDate>Thu, 31 Oct 2019 10:20:16 +0900</pubDate>
         <author>thanh-hung.dang@etu.univ-amu.fr (Hung T. Dang)</author>
         <atom:modified>Thu, 31 Oct 2019 10:20:16 +0900</atom:modified>
-        <guid>http://dangthanhhung.github.io/en/gallery/photo/</guid>
-        <description></description>
+        <guid>http://dangthanhhung.github.io/en/gallery/cartoon/</guid>
+        <description>Sample images from Pixabay</description>
         
         <dc:creator>Hung T. Dang</dc:creator>
-        
+        <media:content url="http://dangthanhhung.github.ioimages/feature2/bam.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -40,16 +40,16 @@
       </item>
       
       <item>
-        <title>Video</title>
-        <link>http://dangthanhhung.github.io/en/gallery/video/</link>
+        <title>Photo</title>
+        <link>http://dangthanhhung.github.io/en/gallery/photo/</link>
         <pubDate>Thu, 31 Oct 2019 10:20:16 +0900</pubDate>
         <author>thanh-hung.dang@etu.univ-amu.fr (Hung T. Dang)</author>
         <atom:modified>Thu, 31 Oct 2019 10:20:16 +0900</atom:modified>
-        <guid>http://dangthanhhung.github.io/en/gallery/video/</guid>
-        <description></description>
+        <guid>http://dangthanhhung.github.io/en/gallery/photo/</guid>
+        <description>Sample images from Pixabay</description>
         
         <dc:creator>Hung T. Dang</dc:creator>
-        
+        <media:content url="http://dangthanhhung.github.ioimages/feature2/gallery.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
