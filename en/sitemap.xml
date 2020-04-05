@@ -13,22 +13,7 @@
   </url>
   
   <url>
-    <loc>http://dangthanhhung.github.io/en/publication/article/</loc>
-    <lastmod>2020-03-05T14:08:48+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://dangthanhhung.github.io/en/home/</loc>
-    <lastmod>2020-03-05T14:08:48+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dangthanhhung.github.io/en/publication/misc/</loc>
-    <lastmod>2020-03-05T14:08:48+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dangthanhhung.github.io/en/publication/</loc>
     <lastmod>2020-03-05T14:08:48+00:00</lastmod>
   </url>
   
@@ -73,11 +58,6 @@
   </url>
   
   <url>
-    <loc>http://dangthanhhung.github.io/en/publication/article/article_any_folder_name_1/</loc>
-    <lastmod>2018-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://dangthanhhung.github.io/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -117,6 +97,10 @@
                 hreflang="en"
                 href="http://dangthanhhung.github.io/en/posts/"
                 />
+  </url>
+  
+  <url>
+    <loc>http://dangthanhhung.github.io/en/publication/</loc>
   </url>
   
   <url>
