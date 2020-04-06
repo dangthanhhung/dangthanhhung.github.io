@@ -13,11 +13,6 @@
   </url>
   
   <url>
-    <loc>http://dangthanhhung.github.io/en/home/</loc>
-    <lastmod>2020-03-05T14:08:48+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://dangthanhhung.github.io/en/showcase/hugo/</loc>
     <lastmod>2020-01-19T21:04:11+09:00</lastmod>
   </url>
@@ -55,6 +50,11 @@
                 hreflang="en"
                 href="http://dangthanhhung.github.io/en/about/"
                 />
+  </url>
+  
+  <url>
+    <loc>http://dangthanhhung.github.io/en/activity/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -100,7 +100,7 @@
   </url>
   
   <url>
-    <loc>http://dangthanhhung.github.io/en/publication/</loc>
+    <loc>http://dangthanhhung.github.io/en/research/</loc>
   </url>
   
   <url>
