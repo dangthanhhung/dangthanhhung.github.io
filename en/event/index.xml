@@ -6,15 +6,15 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>Tags on Dang T. Hung&#39;s webpage</title>
-    <link>http://dangthanhhung.github.io/en/tags/</link>
-    <description>Recent content in Tags on Dang T. Hung&#39;s webpage</description>
+    <title>Dang T. Hung&#39;s webpage</title>
+    <link>http://dangthanhhung.github.io/en/event/</link>
+    <description>Recent content on Dang T. Hung&#39;s webpage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>thanh-hung.dang@etu.univ-amu.fr (Hung T. Dang)</managingEditor>
     <webMaster>thanh-hung.dang@etu.univ-amu.fr (Hung T. Dang)</webMaster>
     
-        <atom:link href="http://dangthanhhung.github.io/en/tags/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://dangthanhhung.github.io/en/event/index.xml" rel="self" type="application/rss+xml" />
     
     
     
