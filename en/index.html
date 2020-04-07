@@ -1492,7 +1492,7 @@
             
                         
               
-              <div class="site-header__title" style="font-size: 44px; padding: 0px 50px;">
+              <div class="site-header__title" style="font-size: 44px; padding: 0px 0px;">
                 
               </div>
                     
@@ -1502,7 +1502,7 @@
             
             
                
-              <div class="site-header__subtitle" style="font-size: 16px; padding: 0px 50px;">
+              <div class="site-header__subtitle" style="font-size: 16px; padding: 0px 0px;">
                 
               </div>
               
@@ -1513,7 +1513,7 @@
             
                         
               
-              <div class="site-header__title" style="font-size: 44px; padding: 0px 50px;">
+              <div class="site-header__title" style="font-size: 44px; padding: 0px 0px;">
                 
               </div>
                     
@@ -1523,7 +1523,7 @@
             
             
                
-              <div class="site-header__subtitle" style="font-size: 16px; padding: 0px 50px;">
+              <div class="site-header__subtitle" style="font-size: 16px; padding: 0px 0px;">
                 
               </div>
               
@@ -1534,7 +1534,7 @@
             
                         
               
-              <div class="site-header__title" style="font-size: 44px; padding: 0px 50px;">
+              <div class="site-header__title" style="font-size: 44px; padding: 0px 0px;">
                 
               </div>
                     
@@ -1544,7 +1544,7 @@
             
             
                
-              <div class="site-header__subtitle" style="font-size: 16px; padding: 0px 50px;">
+              <div class="site-header__subtitle" style="font-size: 16px; padding: 0px 0px;">
                 
               </div>
               
@@ -1559,7 +1559,7 @@
     document.addEventListener('DOMContentLoaded', function () {
       
       var options = null;
-      var header = JSON.parse("[{\"align\":\"center\",\"height\":400,\"imagePosition\":\"center\",\"imageRepeat\":\"no-repeat\",\"imageSize\":\"cover\",\"imageSrc\":\"images/header/background2.jpg\",\"paddingX\":50,\"paddingY\":0,\"spaceBetweenTitleSubtitle\":18,\"subtitle\":[null],\"subtitleColor\":null,\"subtitleCursive\":false,\"subtitleFontSize\":16,\"title\":[null],\"titleColor\":\"#ff6a00\",\"titleFontSize\":30,\"titleShadow\":false,\"type\":\"img\"},{\"align\":\"center\",\"height\":200,\"paddingX\":50,\"paddingY\":0,\"spaceBetweenTitleSubtitle\":16,\"subtitle\":null,\"subtitleColor\":null,\"subtitleCursive\":true,\"subtitleFontSize\":18,\"title\":[\"Homepage of Dang Thanh Hung\"],\"titleColor\":\"#ff6a00\",\"titleFontSize\":30,\"titleShadow\":true,\"type\":\"text\"},{\"height\":350,\"options\":{\"auto\":5000,\"autoRestart\":true,\"continuous\":true,\"disableScroll\":true,\"draggable\":true,\"startSlide\":0,\"stopPropagation\":true},\"slide\":[{\"align\":\"left\",\"imagePosition\":\"center\",\"imageRepeat\":\"no-repeat\",\"imageSize\":\"cover\",\"imageSrc\":\"images/header/background2.jpg\",\"paddingX\":50,\"paddingY\":0,\"spaceBetweenTitleSubtitle\":20,\"subtitle\":[null],\"subtitleFontSize\":16,\"title\":[null],\"titleFontSize\":44},{\"align\":\"center\",\"imagePosition\":\"center\",\"imageRepeat\":\"no-repeat\",\"imageSize\":\"cover\",\"imageSrc\":\"images/header/background1.jpg\",\"paddingX\":50,\"paddingY\":0,\"spaceBetweenTitleSubtitle\":20,\"subtitle\":[null],\"subtitleFontSize\":16,\"title\":[null],\"titleFontSize\":44},{\"align\":\"right\",\"imagePosition\":\"center\",\"imageRepeat\":\"no-repeat\",\"imageSize\":\"cover\",\"imageSrc\":\"images/header/background3.jpg\",\"paddingX\":50,\"paddingY\":0,\"spaceBetweenTitleSubtitle\":20,\"subtitle\":[null],\"subtitleFontSize\":16,\"title\":[null],\"titleFontSize\":44}],\"type\":\"slide\"}]");
+      var header = JSON.parse("[{\"align\":\"center\",\"height\":400,\"imagePosition\":\"center\",\"imageRepeat\":\"no-repeat\",\"imageSize\":\"cover\",\"imageSrc\":\"images/header/background2.jpg\",\"paddingX\":50,\"paddingY\":0,\"spaceBetweenTitleSubtitle\":18,\"subtitle\":[null],\"subtitleColor\":null,\"subtitleCursive\":false,\"subtitleFontSize\":16,\"title\":[null],\"titleColor\":\"#ff6a00\",\"titleFontSize\":30,\"titleShadow\":false,\"type\":\"img\"},{\"align\":\"center\",\"height\":200,\"paddingX\":50,\"paddingY\":0,\"spaceBetweenTitleSubtitle\":16,\"subtitle\":null,\"subtitleColor\":null,\"subtitleCursive\":true,\"subtitleFontSize\":18,\"title\":[\"Homepage of Dang Thanh Hung\"],\"titleColor\":\"#ff6a00\",\"titleFontSize\":30,\"titleShadow\":true,\"type\":\"text\"},{\"height\":350,\"options\":{\"auto\":5000,\"autoRestart\":true,\"continuous\":true,\"disableScroll\":true,\"draggable\":true,\"startSlide\":0,\"stopPropagation\":true},\"slide\":[{\"align\":\"left\",\"imagePosition\":\"center\",\"imageRepeat\":\"no-repeat\",\"imageSize\":\"cover\",\"imageSrc\":\"images/header/background2.jpg\",\"paddingX\":0,\"paddingY\":0,\"spaceBetweenTitleSubtitle\":20,\"subtitle\":[null],\"subtitleFontSize\":16,\"title\":[null],\"titleFontSize\":44},{\"align\":\"center\",\"imagePosition\":\"center\",\"imageRepeat\":\"no-repeat\",\"imageSize\":\"cover\",\"imageSrc\":\"images/header/background1.jpg\",\"paddingX\":0,\"paddingY\":0,\"spaceBetweenTitleSubtitle\":20,\"subtitle\":[null],\"subtitleFontSize\":16,\"title\":[null],\"titleFontSize\":44},{\"align\":\"right\",\"imagePosition\":\"center\",\"imageRepeat\":\"no-repeat\",\"imageSize\":\"cover\",\"imageSrc\":\"images/header/background3.jpg\",\"paddingX\":0,\"paddingY\":0,\"spaceBetweenTitleSubtitle\":20,\"subtitle\":[null],\"subtitleFontSize\":16,\"title\":[null],\"titleFontSize\":44}],\"type\":\"slide\"}]");
       var slide = header.filter(function(h) {
         return h.type === 'slide';
       });
