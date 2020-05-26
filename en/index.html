@@ -1474,36 +1474,116 @@
             
 <header class="header">
     
-          
-  
-    
-    <div class="site-header basicflex-column site-header__align-left" data-ani="true" style="background-image: url('/images/header/background2.jpg'); background-size: cover;
-    background-repeat: no-repeat; background-position: center; width: 100%; height: 400px; padding: 0px 20px;">
+        
+<script defer src="/js/swipehome.min.38327ae405a4aea6bf5716ad0386e96e6ed4a04199b4ca863a548f1acdf4cf6b.js"></script>
+
+
+  <div id="headerSwipe" class="swipe">
+    <div class="swipe-home">
+      
+      
+      
+      
       
       
         
-        <div class="site-header__title " style="font-size: 20px; color:#ff6a00;">
-          
-        </div>
+        
+          <div class="site-header__align-left" data-ani="true" style="background-image: url('/images/header/background2.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; height: 350px;">
+            
+                        
               
-      
-      
-        <div style="height: 18px"></div>
-      
-      
-         
-        <div class="site-header__subtitle" style="font-size: 16px; " data-cursive="">
-          
-        </div>
+              <div class="site-header__title" style="font-size: 44px; padding: 0px 0px;">
+                
+              </div>
+                    
+            
+            
+              <div style="height: 20px"></div>
+            
+            
+               
+              <div class="site-header__subtitle" style="font-size: 16px; padding: 0px 0px;">
+                
+              </div>
+              
+            
+          </div>
         
+          <div class="site-header__align-center" data-ani="true" style="background-image: url('/images/header/background1.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; height: 350px;">
+            
+                        
+              
+              <div class="site-header__title" style="font-size: 44px; padding: 0px 0px;">
+                
+              </div>
+                    
+            
+            
+              <div style="height: 20px"></div>
+            
+            
+               
+              <div class="site-header__subtitle" style="font-size: 16px; padding: 0px 0px;">
+                
+              </div>
+              
+            
+          </div>
+        
+          <div class="site-header__align-right" data-ani="true" style="background-image: url('/images/header/background3.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; height: 350px;">
+            
+                        
+              
+              <div class="site-header__title" style="font-size: 44px; padding: 0px 0px;">
+                
+              </div>
+                    
+            
+            
+              <div style="height: 20px"></div>
+            
+            
+               
+              <div class="site-header__subtitle" style="font-size: 16px; padding: 0px 0px;">
+                
+              </div>
+              
+            
+          </div>
+        
+      
       
     </div>
-    
-  
-    
-  
-    
-  
+  </div>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      
+      var options = null;
+      var header = JSON.parse("[{\"align\":\"left\",\"height\":400,\"imagePosition\":\"center\",\"imageRepeat\":\"no-repeat\",\"imageSize\":\"cover\",\"imageSrc\":\"images/header/background2.jpg\",\"paddingX\":20,\"paddingY\":0,\"spaceBetweenTitleSubtitle\":18,\"subtitle\":[null],\"subtitleColor\":null,\"subtitleCursive\":false,\"subtitleFontSize\":16,\"title\":[null],\"titleColor\":\"#ff6a00\",\"titleFontSize\":20,\"titleShadow\":false,\"type\":\"img\",\"vertical-align\":\"top\"},{\"align\":\"center\",\"height\":200,\"paddingX\":50,\"paddingY\":0,\"spaceBetweenTitleSubtitle\":16,\"subtitle\":null,\"subtitleColor\":null,\"subtitleCursive\":true,\"subtitleFontSize\":18,\"title\":[\"Homepage of Dang Thanh Hung\"],\"titleColor\":\"#ff6a00\",\"titleFontSize\":30,\"titleShadow\":true,\"type\":\"text\"},{\"height\":350,\"options\":{\"auto\":5000,\"autoRestart\":true,\"continuous\":true,\"disableScroll\":true,\"draggable\":true,\"startSlide\":0,\"stopPropagation\":true},\"slide\":[{\"align\":\"left\",\"imagePosition\":\"center\",\"imageRepeat\":\"no-repeat\",\"imageSize\":\"cover\",\"imageSrc\":\"images/header/background2.jpg\",\"paddingX\":0,\"paddingY\":0,\"spaceBetweenTitleSubtitle\":20,\"subtitle\":[null],\"subtitleFontSize\":16,\"title\":[null],\"titleFontSize\":44},{\"align\":\"center\",\"imagePosition\":\"center\",\"imageRepeat\":\"no-repeat\",\"imageSize\":\"cover\",\"imageSrc\":\"images/header/background1.jpg\",\"paddingX\":0,\"paddingY\":0,\"spaceBetweenTitleSubtitle\":20,\"subtitle\":[null],\"subtitleFontSize\":16,\"title\":[null],\"titleFontSize\":44},{\"align\":\"right\",\"imagePosition\":\"center\",\"imageRepeat\":\"no-repeat\",\"imageSize\":\"cover\",\"imageSrc\":\"images/header/background3.jpg\",\"paddingX\":0,\"paddingY\":0,\"spaceBetweenTitleSubtitle\":20,\"subtitle\":[null],\"subtitleFontSize\":16,\"title\":[null],\"titleFontSize\":44}],\"type\":\"slide\"}]");
+      var slide = header.filter(function(h) {
+        return h.type === 'slide';
+      });
+      
+      if (slide.length > 0) {
+        options = slide[0].options;
+      }
+      
+      var headerSwipeElem = document.getElementById('headerSwipe');
+      var headerSwipe = new Swipe(headerSwipeElem,
+        options ? 
+        options : {
+          startSlide: 0,
+          auto: 7000,
+          draggable: true,
+          autoRestart: true,
+          continuous: true,
+          disableScroll: true,
+          stopPropagation: true,
+          callback: function (index, element) { },
+          transitionEnd: function (index, element) { }
+        });
+    });
+  </script>
 
     
 </header>
@@ -1541,8 +1621,8 @@
                 <p>Bonjour!</p>
                 <br>
                 <p>My name is Thanh-Hung Dang (you can call me "Hung", or "Hưng" in Vietnamese). 
-                    I am currently a PhD student at <a href=http://i2m.univ-amu.fr/> Institute of Mathematics of Marseille </a>, Aix-Marseille University, under the supervision of <a href="http://alexis.bonnecaze.perso.luminy.univ-amu.fr/">Alexis Bonnecaze</a> and <a href="http://iml.univ-mrs.fr/~ballet/">Stéphane Ballet</a>.</p>
-                <p>In my PhD study, I work on the topic related to "Efficient arithmetic in finite fields based on algebraic curves". 
+                    I've graduated from the doctoral program at <a href=http://i2m.univ-amu.fr/> Institute of Mathematics of Marseille </a>, Aix-Marseille University, under the supervision of <a href="http://alexis.bonnecaze.perso.luminy.univ-amu.fr/">Alexis Bonnecaze</a> and <a href="http://iml.univ-mrs.fr/~ballet/">Stéphane Ballet</a>.</p>
+                <p>In my PhD study, I worked on the topic related to "Efficient arithmetic in finite fields based on algebraic curves". 
                     My research interests lie in area of Computational Number Theory; Cryptography, Coding Theory; Algorithms for finite field arithmetic.
                 </p>
                 <meta name="viewport" content="width=device-width, initial-scale=1">
