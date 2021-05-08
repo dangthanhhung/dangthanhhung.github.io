@@ -1,6 +1,6 @@
-content_font = "\"OpenSans\", sans-serif" 
-#content_font = "\"Muli\", sans-serif"
-title_font = "\"NotoSerif\", serif" 
-# content_font = "\"Source Sans Pro\", sans-serif"
-# content_font = "\"League Gothic\", sans-serif"
+content_font = "\"Segoe UI\", sans-serif" 
+title_font = "\"Segoe UI\", sans-serif"
 cursive_font = "\"Courgette\", cursive"
+
+#content_font = "\"Merriweather\", serif" 
+#title_font = "\"Fira Sans\", sans-serif" 

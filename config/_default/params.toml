@@ -1,24 +1,27 @@
-logoText = "Hưng"
+logoText = ""
 logoType = "short" # long, short
-description = "The Zzo theme for Hugo example site."
+description = ""
 custom_css = []
 custom_js = []
-useFaviconGenerator = false # https://www.favicon-generator.org/
+useFaviconGenerator = true # https://www.favicon-generator.org/
 meta_image = ""
 themecolor = ""
+katex= "true"
+markup= "mmark"
+
+
 
 themeOptions = ["light","dark", "hacker", "solarized", "kimbie"]
-notAllowedTypesInHome = ["contact", "talks", "about", "showcase", "publication", "presentation", "resume"]
+notAllowedTypesInHome = ["about","contact", "talks", "showcase", "presentation", "resume"]
 notAllowedTypesInHomeSidebar = ["about", "archive", "showcase", "publication", "presentation", "resume"]
 notAllowedTypesInArchive = ["about", "talks", "showcase", "publication", "presentation", "resume"]
 notAllowedTypesInHomeFeed = ["about", "archive", "contact", "talks", "showcase", "publication", "presentation", "resume", "gallery"]
-
 viewportSize = "normal" # widest, wider, wide, normal, narrow
 enableUiAnimation = true
 hideSingleContentsWhenJSDisabled = false
 
 # header
-homeHeaderType = "text" # text, img, slide
+homeHeaderType = "slide" # text, img, slide
 
 # menu
 showMobileMenuTerms = ["tags", "categories", "series"]
@@ -41,8 +44,8 @@ pubPaginate = 20
 
 # whoami
 myname = "Hung T. Dang"
-email = "dthungvna@gmail.com"
-whoami = "PhD student"
+email = "thanh-hung.dang@etu.univ-amu.fr"
+whoami = "PhD"
 bioImageUrl = ""
 useGravatar = false
 location = "Marseille, France"
@@ -69,7 +72,7 @@ tocLevels = ["h2", "h3", "h4"]
 enableSidebarPostsByOrder = false
 
 # footer
-showPoweredBy = true
+showPoweredBy = false
 showFeedLinks = true
 showSocialLinks = true
 enableLangChange = true
@@ -119,12 +122,12 @@ commento = false
 # more info please open https://valine.js.org
 [valine]
   enable = false
-  appId = '你的appId'
-  appKey = '你的appKey'
+  appId = ''
+  appKey = ''
   notify = false  # mail notifier , https://github.com/xCss/Valine/wiki
   verify = false # Verification code
-  avatar = 'mm' 
-  placeholder = '说点什么吧...'
+  avatar = '' 
+  placeholder = ''
   visitor = false
 
 [changyan]
@@ -142,17 +145,19 @@ commento = false
 
 [socialOptions]
   email = "mailto:dthungvna@gmail.com"
-  phone = ""
-  facebook = "http://facebook.com/dangthanhhung"
-  twitter = "http://example.org/"
+  researchgate = "https://www.researchgate.net/profile/Thanh_Hung_Dang"
+  google-scholar = ""
   github = "https://github.com/dangthanhhung"
+  linkedin = "https://www.linkedin.com/in/thanh-hung-dang-545251153/"
+  phone = ""
+  facebook = ""
+  twitter = ""
   stack-overflow = ""
   instagram = ""
   google-plus = ""
   youtube = ""
   medium = ""
   tumblr = ""
-  linkedin = "https://www.linkedin.com/in/thanh-hung-dang-545251153/"
   pinterest = ""
   stack-exchange = ""
   telegram = ""
@@ -170,8 +175,8 @@ commento = false
   xmpp = ""
   dev-to = ""
   gitea = ""
-  google-scholar = ""
-
+  
+  
 [donationOptions]
   enable = false
   alipay = "" 

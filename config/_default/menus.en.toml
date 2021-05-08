@@ -5,53 +5,34 @@
   weight = 1
 
 [[main]]
-  identifier = "archive"
-  name = "Archive"
-  url = "archive"
-  weight = 6
+  identifier = "event"
+  name = "Events"
+  url = "event"
+  weight = 3
+
+
 
 #[[main]]
-#  identifier = "presentation"
-#  name = "Pt"
-#  url = "presentation"
-#  weight = 3
+#  identifier = "posts"
+#  name = "Posts"
+#  url = "posts"
+#  weight = 4
+
+
+#[[main]]
+#  parent = "posts"
+#  name = "News"
+#  url = "posts/news"
 
 [[main]]
-  identifier = "gallery"
-  name = "Gallery"
-  url = "gallery"
-  weight = 5
-    
-[[main]]
-  parent = "gallery"
-  name = "Video"
-  url = "gallery/video"
-
-[[main]]
-  parent = "gallery"
-  name = "Photo"
-  url = "gallery/photo"
-
-[[main]]
-  identifier = "posts"
-  name = "Posts"
-  url = "posts"
+  identifier = "misc"
+  name = "Misc"
+  url = "misc"
   weight = 4
 
 [[main]]
-  identifier = "activities"
-  name = "Activities"
-  url = "activity"
+  identifier = "research"
+  name = "Research"
+  url = "research"
   weight = 2
 
-[[main]]
-  identifier = "publication"
-  name = "Publication"
-  url = "publication"
-  weight = 3
-
-[[main]]
-  identifier = "contact"
-  name = "Contact"
-  url = "contact"
-  weight = 7

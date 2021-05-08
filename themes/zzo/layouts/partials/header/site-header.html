@@ -11,3 +11,8 @@
     {{ end }}
 </header>
 {{ end }}
+
+{{ if or .Params.katex .Site.Params.katex }}
+{{ partial "katex.html" . }}
+{{ end }}
+

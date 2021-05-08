@@ -7,7 +7,7 @@
     &__title {
       font-family: $title-font;
       font-weight: 700;
-      font-size: 0.95rem;
+      font-size: 1.05rem;
 
       @include themify($themes) {
         color: themed('sidebar-title-color');
@@ -33,7 +33,7 @@
 
     &__a {
       font-family: $title-font;
-      font-size: 0.95rem;
+      font-size: 1.05rem;
       @include themify($themes) {
         color: themed('sidebar-li-color');
       }
@@ -58,7 +58,7 @@ li.sidebar-recent {
   padding-left: 0.5em;
   &::before {
     padding-right: 0.125rem;
-    font-size: 1rem;
+    font-size: 1.05rem;
     display: inline-block;
     content: "\2022";
   }

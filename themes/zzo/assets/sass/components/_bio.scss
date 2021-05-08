@@ -34,7 +34,7 @@
   }
 
   &__name {
-    font-weight: 700;
+    font-weight: 600;
     letter-spacing: 1px;
     font-family: inherit;
     font-size: 26px;
@@ -43,11 +43,11 @@
 
   &__desc {
     margin: 0.5rem 0;
-    font-size: 14px;
+    font-size: 18px;
   }
 
   &__info {
-    font-size: 14px;
+    font-size: 16px;
     margin: 0.1rem 0;
     @include flexbox();
     @include align-items(center);

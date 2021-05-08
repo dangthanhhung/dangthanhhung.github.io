@@ -27,7 +27,7 @@ header:
     paddingY: 0
     align: center
     title:
-      -
+      - 
     subtitle:
       -
     titleColor:

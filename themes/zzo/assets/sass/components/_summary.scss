@@ -8,7 +8,7 @@
   .title {
     a {
       font-family: $title-font;
-      font-weight: 700;
+      font-weight: 400;
       word-break: break-word;
 
       @include themify($themes) {
@@ -93,11 +93,11 @@
   }
 
   .title {
-    font-size: 24px;
+    font-size: 18px;
 
     a {
       font-family: $title-font;
-      font-weight: 700;
+      font-weight: 400;
       word-break:break-word;
 
       @include themify($themes) {
@@ -137,7 +137,7 @@
 
   &__text {
     margin-top: 1rem;
-    line-height: 1.7rem;
+    line-height: 1.5rem;
   }
 
   &__image {

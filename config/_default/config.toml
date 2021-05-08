@@ -8,14 +8,9 @@ hasCJKLanguage = true
 
 [languages]
   [languages.en]
-    weight = 1
-  
-    
+    weight = 1    
   [languages.vi]
     weight = 2
-  
-    
-
 
 summaryLength = 70
 buildFuture = true

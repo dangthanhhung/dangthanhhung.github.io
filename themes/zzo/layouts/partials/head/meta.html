@@ -92,3 +92,11 @@
   <link rel="icon" href="{{ "logo.svg" | relURL }}" sizes="any" type="image/svg+xml" />
   {{- end }}
 {{ end }}
+
+{{ if or .Params.katex .Site.Params.katex }}
+{{ partial "katex.html" . }}
+{{ end }}
+
+
+
+

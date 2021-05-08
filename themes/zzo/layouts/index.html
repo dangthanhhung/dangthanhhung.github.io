@@ -3,7 +3,58 @@
 {{ define "main" }}
 <main class="main inner" data-sidebar-position="{{ $.Param "sidebarPosition" }}">
     <div class="list__main {{ if $.Param "enableSidebar" }}{{ if eq ($.Param "sidebarPosition") "left" }}mr{{ else }}lm{{ end }}{{ else }}lmr{{ end }}">
-        <div class="summary__container" data-display="block">
+        <div style="font-size: 17px" class="main content">
+                <br><br>
+                <p>Bonjour!</p>
+                <br>
+                <p>My name is Thanh-Hung Dang (you can call me "Hung", or "Hưng" in Vietnamese). 
+                    I completed my PhD at <a href=http://i2m.univ-amu.fr/> Institute of Mathematics of Marseille </a>, Aix-Marseille University, under the supervision of <a href="http://alexis.bonnecaze.perso.luminy.univ-amu.fr/">Alexis Bonnecaze</a> and <a href="http://iml.univ-mrs.fr/~ballet/">Stéphane Ballet</a>.</p>
+                <p>In my PhD study, I worked on the topic related to "Efficient arithmetic in finite fields based on algebraic curves". 
+                    My research interests lie in the area of Computational Number Theory; Cryptography, Coding Theory; Algorithms for finite field arithmetic.
+                </p>
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--BUTTON -->
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.button {
+  background-color:#4d8afc;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Darker background on mouse-over */
+.button:hover {
+  background-color: RoyalBlue;
+}
+</style>
+<br>
+<br>
+<a href="/docs/CV-T.HungDANG.pdf"><button class="button"><i class="fa fa-download"></i> Download CV</button></a>
+<a href="./about"><button class="button  arrow">Know more</button></a>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<h3>News</h3>
+    <ul style="margin-left: 1em;margin-bottom: auto;  line-height: 1.8; padding: 1em; list-style-type:disc;">
+        <li><b style="font-weight: 600"> 25 May 2020</b>: I completed PhD dissertation defense at I2M, Luminy, Marseille.</li>
+        <li><b style="font-weight: 600"> 05 March 2020</b>: I gave a talk updating some research results of my PhD thesis in the weekly seminar of <a href="https://www.i2m.univ-amu.fr/la-recherche/groupes-scientifiques/groupe-arithmetique-geometrie-logique-et-representations-aglr/arithmetique-et-theorie-de-linformation-ati/"> ATI group</a> at <a href="i2m.univ-amu.fr">I2M</a>.</li>
+        <li><b style="font-weight: 600"> 27-29 November 2019</b>: I participated and presented my current research works in the <a href="https://raim2019.sciencesconf.org/">RAIM 2019</a> conference of GdR Informatique Mathématique <a href="https://www.gdr-im.fr/">(GdR IM)</a> 
+            organized at <a href="http://imath.univ-tln.fr/">Institut de Mathématiques de Toulon</a>, Université de Toulon, France. </li>
+        <li><b style="font-weight: 600"> 10-14 June 2019</b>: I partipated in the 17th <a href="https://agct-2019.sciencesconf.org/">AGCT-2019</a> conference organized at CIRM, Marseille - Luminy, France.</li>
+        <li><b style="font-weight: 600"> 15 March 2019</b>: A manuscript entitled "On the scalar complexity of original Chudnovsky<MATH>^2</MATH> multiplication algorithm in finite fields " has been accepted to <a href="https://www.pmf.ni.ac.rs/CAI2019/">CAI 2019</a> (joint work with
+        Alexis Bonnecaze and Stéphane Ballet).</li>
+    </ul> 
+
+
+
+      
+</div>
+    <div class="summary__container" data-display="block">
             {{ $filteredPages := .Site.RegularPages }}
             {{ range $.Param "notAllowedTypesInHome" }}
                 {{ $filteredPages = (where $filteredPages "Type" "!=" (lower .)) }}
@@ -13,15 +64,15 @@
                 {{ .Render "summary" }}
             {{ end }}
             {{ partial "pagination/pagination" . }}
-        </div>
-        {{ partial "search/search-result-desktop" . }}
     </div>
-
-    {{ if $.Param "enableSidebar" }}
+        {{ partial "search/search-result-desktop" . }}
+</div>
+    
+{{ if $.Param "enableSidebar" }}
         <aside class="list__sidebar {{ if eq ($.Param "sidebarPosition") "left" }}l{{ else }}r{{ end }}" data-dir="{{ $.Param "languagedir" | default "ltr" }}">
             {{ partial "sidebar/sidebar-home" . }}
         </aside>
-    {{ end }}
+{{ end }}
 </main>
 {{ partial "script/sidebar-script" . }}
 {{ partial "script/home-script" . }}
